@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: Poppins;
+ 
+    
+}
+#hero__section{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #293629;
+   
+   width: 100vw;
+   height: 150vh;
+
+}
+
+#main__container{
+  
+    background-color: #DDDDDD;
+    background-image: url("/images/crumpled-paper.png");
+    background-repeat:no-repeat;
+    /* make the img backgroung cover the whole container */
+    background-size: 130%;
+    background-position: -60px;
+    
+    border: #435243;
+    box-shadow: 10px 10px 20px #293629;
+    padding: 87px 37px;
+    margin: 50px 0 0 0 ;
+    height: 700px;
+    width: 400px;
+
+    /* flexbox - centering */
+}
+
+h1,h2,h3,p,a{
+    color: #435243;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+h1{
+    padding-bottom: 10px;
+    font-size: 2.6em;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+h2{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.subtitle{
+
+}
+
+.page__number{
+    float: right;
+}
+/* !!!!!!!!!!!!!!!!!!!! */
+
+h2{
+    
+    text-decoration: none;
+    color: #435243;
+    box-shadow: inset 0 0 0 0 #CFC249;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+    
+}
+
+.subtitle:hover{
+  color: #435243;
+  box-shadow: inset 310px 0 0 0  #CFC249;
+}
+.main__paragraph{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: .8em;
+}
+
+.header__line{
+    background-color: #435243;
+    height: 12px;
+}
+
+.h2__line{
+    background-color: #435243;
+    height: 1px;
+}
+
+/* --------PROJECTS -------- */
+
+.project-line{
+    background-color: #435243;
+    border: 0;
+    height: 10px;
+    margin: 30px 70px;
+  
+}
+.project__section{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    
+}
+
+nav{
+    display: flex;
+    padding: 8% 0% 0%;
+    margin: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    
+}
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 2em;
+    letter-spacing: .3em;
+
+}
+li:hover{
+    color: #435243;
+    text-decoration: underline;
+    font-weight: 600;
+
+  }
+
+.h1__2{
+    
+    font-size: 5rem;
+}
+
+
+p{
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 65vh;
+
+}
+.numbering{
+    float: left;
+    padding-right: 1rem;
+    font-size: 3rem;
+
+
+}
+
+.project-one{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 450px;
+}
+
+.cap__number{
+
+        float: left;
+        padding-right: 60px;
+        padding-top: 30px;
+        line-height: 20%;
+        width: .5em;
+        font-size: 260%;
+       
+}
+
+.sub__title{
+    font-weight: 600;
+    font-size: 1rem;
+    /* edit line height */
+
+}
+
+
+.project-btn{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 200px;
+}
+
+.project-btn-1{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 350px;
+}
+
+.line-two{
+    background-color: #435243;
+    border: 0;
+    height: .5px;
+    width: 500px;
+    margin:30px 0  ;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+
+h4:hover{
+    color: #435243;
+    box-shadow: inset 300px 0 0 0 #CFC249;
+    text-decoration: underline;
+  }
+
+h4{
+    font-weight: 600;
+    color: #435243;
+    box-shadow: inset 0 0 0 0 #CFC249;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+
+#project-image{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: darkgray;
+    height: 700px;
+    width: 500px;
+    z-index: 999;
+}
+/* CONTACT FORM  */
+.form__bigcontainer{
+    flex-wrap: wrap;
+}
+
+.form__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin: 70px;
+    
+
+
+}
+
+form{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+form input, form textarea{
+    border: none;
+    border-bottom: .5px solid #293629;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: poppins;
+  
+
+}
+
+form button{
+
+    padding: 15px;
+    background-color: #293629;
+    color: #DDDDDD;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.end__color{
+    background-color: #293629;
+    border: #293629;
+    outline: #293629;
+    height: 10px;
+}
+/* h3 change phone query to middle flex */

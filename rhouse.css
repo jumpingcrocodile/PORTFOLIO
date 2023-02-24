@@ -1,0 +1,40 @@
+*{
+    margin: 30px;
+    padding: 0;
+    background-color: #FDB7C2;
+    font-family: Poppins;
+
+
+}
+
+hr{
+    background-color: #002ABC;
+    border: 0;
+    height: 1px;
+    width: 1000px;
+    margin: auto;
+  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2, hr {
+    color: #002ABC;
+    display: flex;
+    justify-content:center ;
+}
+
+
+h3{
+    color: #727272;
+}
+
+img{
+    width: 75vw;
+    height: auto;
+}
+
+
